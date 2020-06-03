@@ -126,7 +126,7 @@ int main () {
 
   for (int i = 0; i < 10; i++) {
     srand (time(0));
-    choice = rand() % 10 + 1;
+    choice = rand() % 9 + 1;
     
     if (i % 2 == 0){
       drawboard();
@@ -285,7 +285,7 @@ int main () {
 	}
 	else{
 	   srand (time(0));
-           choice = rand() % 10 + 1;
+           choice = rand() % 9 + 1;
 	   i--;
 	  continue;
 	}
@@ -296,7 +296,7 @@ int main () {
 	}
 	else{
 	  srand (time(0));
-          choice = rand() % 10 + 1;
+          choice = rand() % 9 + 1;
 	  i--;
 	  continue;
 	}
@@ -307,7 +307,7 @@ int main () {
 	}
 	else{
 	  srand (time(0));
-          choice = rand() % 10 + 1;
+          choice = rand() % 9 + 1;
 	  i--;
 	  continue;
 	}
@@ -318,7 +318,7 @@ int main () {
 	}
 	else{
 	  srand (time(0));
-          choice = rand() % 10 + 1;
+          choice = rand() % 9 + 1;
 	  i--;
 	  continue;
 	}
@@ -329,7 +329,7 @@ int main () {
 	}
 	else{
 	  srand (time(0));
-          choice = rand() % 10 + 1;
+          choice = rand() % 9 + 1;
 	  i--;
 	  continue;
 	}
@@ -341,7 +341,7 @@ int main () {
 	}
 	else{
 	  srand (time(0));
-          choice = rand() % 10 + 1;
+          choice = rand() % 9 + 1;
 	  i--;
 	  continue;
 	}
@@ -352,7 +352,7 @@ int main () {
 	}
 	else{
 	  srand (time(0));
-          choice = rand() % 10 + 1;
+          choice = rand() % 9 + 1;
 	  i--;
 	  continue;
 	}
@@ -363,7 +363,7 @@ int main () {
 	}
 	else{
 	  srand (time(0));
-          choice = rand() % 10 + 1;
+          choice = rand() % 9 + 1;
 	  i--;
 	  continue;
 	}
@@ -374,7 +374,7 @@ int main () {
 	}
 	else{
 	  srand (time(0));
-          choice = rand() % 10 + 1;
+          choice = rand() % 9 + 1;
 	  i--;
 	  continue;
 	}

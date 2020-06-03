@@ -1,0 +1,29 @@
+It's a command line version of Tic Tac Toe!
+
+Its around 400 lines and can run on virtually anything provided you have a compiler for it.
+
+If the compiled version doesnt run, then you may have to manually compile it. 
+
+
+for linux, it looks like this: 
+
+$ g++ tictac.cpp -o tictac   
+
+and for windows, it looks like this in cmd:
+
+> g++ -o tictac tictac.cpp
+
+
+This game controls using the Number Pad on a keyboard. each number correlates to a square on the board:
+
+ 7 | 8 | 9
+ ---------
+ 4 | 5 | 6
+ ---------
+ 1 | 2 | 3
+
+
+
+THIS GAME HAS ONLY BEEN TESTED ON DEBIAN LINUX, it has not been tested on windows.
+
+
