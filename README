@@ -9,9 +9,7 @@ for linux, it looks like this:
 
 $ g++ tictac.cpp -o tictac   
 
-and for windows, it looks like this in cmd:
-
-> g++ -o tictac tictac.cpp
+install the g++ complier in windows, and do the same
 
 
 This game controls using the Number Pad on a keyboard. each number correlates to a square on the board:
@@ -23,7 +21,6 @@ This game controls using the Number Pad on a keyboard. each number correlates to
  1 | 2 | 3
 
 
-
-THIS GAME HAS ONLY BEEN TESTED ON DEBIAN LINUX, it has not been tested on windows.
+this game has been tested on debian linux and windows 10
 
 
