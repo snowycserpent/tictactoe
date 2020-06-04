@@ -30,84 +30,84 @@ int drawboard () {
 }
 
 int checkwin () {
-  if (seven == 'x' and four == 'x' and one == 'x') {
+  if (seven == 'x' && four == 'x' && one == 'x') {
     cout << "congrats! the player won!\n";
     drawboard();
     exit(0);
   }
-  if (seven == 'x' and five == 'x' and three == 'x') {
+  if (seven == 'x' && five == 'x' && three == 'x') {
     cout << "congrats! the player won!";
     drawboard();
     exit(0);
   }
-  if (nine == 'x' and five == 'x' and one == 'x') {
+  if (nine == 'x' && five == 'x' && one == 'x') {
     cout << "congrats! the player won!";
     drawboard();
     exit(0);
   }
-  if (eight == 'x' and five == 'x' and two == 'x') {
+  if (eight == 'x' && five == 'x' && two == 'x') {
     cout << "congrats! the player won!";
     drawboard();
     exit(0);
   }
-  if (nine == 'x' and six == 'x' and three == 'x') {
+  if (nine == 'x' && six == 'x' && three == 'x') {
     cout << "congrats! the player won!";
     drawboard();
     exit(0);
   }
-  if (seven == 'x' and eight == 'x' and nine == 'x') {
+  if (seven == 'x' && eight == 'x' && nine == 'x') {
     cout << "congrats! the player won!";
     drawboard();
     exit(0);
   }
-  if (four == 'x' and five == 'x' and six == 'x') {
+  if (four == 'x' && five == 'x' && six == 'x') {
     cout << "congrats! the player won!";
     drawboard();
     exit(0);
   }
-  if (two == 'x' and three == 'x' and one == 'x') {
+  if (two == 'x' && three == 'x' && one == 'x') {
     cout << "congrats! the player won!";
     drawboard();
     exit(0);
   }
 
 
-  if (seven == 'o' and four == 'o' and one == 'o') {
+  if (seven == 'o' && four == 'o' && one == 'o') {
     cout << "you lose.";
     drawboard();
     exit(0);
   }
-  if (seven == 'o' and five == 'o' and three == 'o') {
+  if (seven == 'o' && five == 'o' && three == 'o') {
     cout << "you lose.";
     drawboard();
     exit(0);
   }
-  if (nine == 'o' and five == 'o' and one == 'o') {
+  if (nine == 'o' && five == 'o' && one == 'o') {
     cout << "you lose.";
     drawboard();
     exit(0);
   }
-  if (eight == 'o' and five == 'o' and two == 'o') {
+  if (eight == 'o' && five == 'o' && two == 'o') {
     cout << "you lose.";
     drawboard();
     exit(0);
   }
-  if (nine == 'o' and six == 'o' and three == 'o') {
+  if (nine == 'o' && six == 'o' && three == 'o') {
     cout << "you lose.";
     drawboard();
     exit(0);
   }
-  if (seven == 'o' and eight == 'o' and nine == 'o') {
+  if (seven == 'o' && eight == 'o' && nine == 'o') {
     cout << "you lose.";
     drawboard();
     exit(0);
   }
-  if (four == 'o' and five == 'o' and six == 'o') {
+  if (four == 'o' && five == 'o' && six == 'o') {
     cout << "you lose.";
     drawboard();
     exit(0);
   }
-  if (two == 'o' and three == 'o' and one == 'o') {
+  if (two == 'o' && three == 'o' && one == 'o') {
     cout << "you lose.";
     drawboard();
     exit(0);
@@ -142,8 +142,6 @@ int main () {
 	}
 	else{
 	  cout << "number already taken\n";
-	  cout << "please enter a new space: ";
-	  cin >> playerchoice;
 	  cout << endl;
 	  i--;
 	  continue;
@@ -156,8 +154,6 @@ int main () {
 	}
 	else{
 	  cout << "number already taken\n";
-	  cout << "please enter a new space: ";
-	  cin >> playerchoice;
 	  cout << endl;
 	  i--;
 	  continue;
@@ -170,8 +166,6 @@ int main () {
 	}
 	else{
 	  cout << "number already taken\n";
-	  cout << "please enter a new space: ";
-	  cin >> playerchoice;
 	  cout << endl;
 	  i--;
 	  continue;
@@ -184,8 +178,6 @@ int main () {
 	}
 	else{
 	  cout << "number already taken\n";
-	  cout << "please enter a new space: ";
-	  cin >> playerchoice;
 	  cout << endl;
 	  i--;
 	  continue;
@@ -198,23 +190,18 @@ int main () {
 	}
 	else{
 	  cout << "number already taken\n";
-	  cout << "please enter a new space: ";
-	  cin >> playerchoice;
 	  cout << endl;
 	  i--;
 	  continue;
 	}
 	
       case 6:
-	if (six == ' '){  //TODO - add a CONTINUE to the default of the switch statement so it loops back upon itself
-	                //(and probably an else statement too at the end of everything)
+	if (six == ' '){  
 	six = 'x';
 	break;
 	}
 	else{
 	  cout << "number already taken\n";
-	  cout << "please enter a new space: ";
-	  cin >> playerchoice;
 	  cout << endl;
 	  i--;
 	  continue;
@@ -227,8 +214,6 @@ int main () {
 	}
 	else{
 	  cout << "number already taken\n";
-	  cout << "please enter a new space: ";
-	  cin >> playerchoice;
 	  cout << endl;
 	  i--;
 	  continue;
@@ -241,8 +226,6 @@ int main () {
 	}
 	else{
 	  cout << "number already taken\n";
-	  cout << "please enter a new space: ";
-	  cin >> playerchoice;
 	  cout << endl;
 	  i--;
 	  continue;
@@ -255,16 +238,12 @@ int main () {
 	}
 	else{
 	  cout << "number already taken\n";
-	  cout << "please enter a new space: ";
-	  cin >> playerchoice;
 	  cout << endl;
 	  i--;
 	  continue;
 	}
       default:
 	cout << "not a number between 1 and 9 \n";
-	cout << "please insert a new number:   ";
-	cin >> playerchoice;
 	i--;
 	continue;
       }
